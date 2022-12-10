@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+   
+  /* Style App.js wrapper */
+  .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+   
+  /* Tab Container */
+  .Tabs {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px;
+gap: 10px;
+background: linear-gradient(180deg, rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.25) 100%);
+border: 0.5px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
+
+
+
+
+
+    width: 80%;
+    height: auto;
+    min-height: 400px;
+    /*background: #053742;
+    *//*margin: 3.5rem auto 1.5rem;
+    */padding: 2rem 1rem;
+    color: #18de4a;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+   
+  .react-tabs {
+    -webkit-tap-highlight-color: transparent;
+  }
+   
+  .react-tabs__tab-list {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 10px;
+    width: 70%;
+    margin: 3rem auto 2rem;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.25) 100%);
+    border: 0.2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+
+  }
+   
+  .react-tabs__tab {
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    
+  }
+   
+  .react-tabs__tab--selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #D9DFFF 100%);
+    border: 0.3px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 20px 40px rgba(23, 0, 102, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 175px;
+    -webkit-border-radius: 175px;
+    -moz-border-radius: 175px;
+    -ms-border-radius: 175px;
+    -o-border-radius: 175px;
+}
+   
+  .react-tabs__tab--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+   
+  .react-tabs__tab:hover {
+    background: rgba(50, 224, 196, 0.15);
+  }
+   
+  .react-tabs__tab:first-child {
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+   
+  .react-tabs__tab:last-child {
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+   
+  .react-tabs__tab-panel {
+    
+    display: none;
+  }
+   
+  .react-tabs__tab-panel--selected {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+  }
